@@ -9,7 +9,7 @@ st.set_page_config(page_title="Telco Customer Churn Predictions", page_icon=":ba
 
 # Define your logo
 logo = """
-<img src="https://cdn.dribbble.com/userupload/11764588/file/original-4165ef475e94ba4104940d4cdab8f760.png?resize=400x300.png" alt="Your Logo" width="200">
+<img src="https://www.google.com/search?q=telco+customer+churn+image&rlz=1C1UEAD_enIN1083IN1083&oq=telco+customer+churn+image&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCTUwNTBqMGoxNagCCLACAQ&sourceid=chrome&ie=UTF-8#vhid=WSda5s362I4XtM&vssid=l" alt="Your Logo" width="200">
 """
 
 # Display the logo in the sidebar
