@@ -4,23 +4,12 @@ import pandas as pd
 import base64
 from utils import *
 
-# Set page title, favicon, and background color
-st.set_page_config(page_title="Telco Customer Churn Predictions", page_icon=":bar_chart:", layout='wide', initial_sidebar_state='expanded')
-
-# Define your logo
-logo = """
-<img src="https://www.google.com/search?q=telco+customer+churn+image&rlz=1C1UEAD_enIN1083IN1083&oq=telco+customer+churn+image&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCTUwNTBqMGoxNagCCLACAQ&sourceid=chrome&ie=UTF-8#vhid=WSda5s362I4XtM&vssid=l" alt="Your Logo" width="200">
-"""
-
-# Display the logo in the sidebar
-st.sidebar.markdown(logo, unsafe_allow_html=True)
-
 # Add background image
 st.markdown(
     """
     <style>
     body {
-        background-image: url("https://your_background_image_url_here.jpg");
+        background-image: url("https://media.licdn.com/dms/image/D4D12AQHehFjrFpLb-A/article-cover_image-shrink_600_2000/0/1692565495463?e=2147483647&v=beta&t=F8D7OMubiV8KRptPaN-v1UnoGMcsSOEop8RhEKXirTk");
         background-size: cover;
     }
     </style>
