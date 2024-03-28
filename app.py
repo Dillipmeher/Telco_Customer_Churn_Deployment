@@ -9,7 +9,7 @@ st.set_page_config(page_title="Telco Customer Churn Predictions", page_icon=":ba
 
 # Define your logo
 logo = """
-<img src="https://your_logo_url_here.png" alt="Your Logo" width="200">
+<img src="https://https://neenopal.blob.core.windows.net/neenopal-website/blog/images/Understanding_Customer_Churn.png.png" alt="Your Logo" width="200">
 """
 
 # Display the logo in the sidebar
