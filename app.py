@@ -4,7 +4,7 @@ import pandas as pd
 import base64
 from utils import *
 
-st.title("Telco Customer Churn Predictions")
+st.title("Telco Customer Churn Predictions Analysis")
 
 st.subheader("BYOP/Group-F/D2S4G/..Churn...Turn....Fun")
 
