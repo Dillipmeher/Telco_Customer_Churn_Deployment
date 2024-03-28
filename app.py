@@ -9,7 +9,7 @@ st.markdown(
     """
     <style>
     body {
-        background-image: url("https://www.linkedin.com/pulse/customer-churn-analysis-telecom-industry-faith-mwai/.png");
+        background-image: url("https://media.licdn.com/dms/image/D4D12AQHehFjrFpLb-A/article-cover_image-shrink_720_1280/0/1692565495463?e=1717027200&v=beta&t=_9TBo-b9xrAofR5qlxPWVia3U01yUA6B7qaZIzTt8dk");
         background-size: cover;
     }
     </style>
