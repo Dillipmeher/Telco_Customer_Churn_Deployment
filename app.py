@@ -4,13 +4,20 @@ import pandas as pd
 import base64
 from utils import *
 
-# Add background image
+# Add background image using CSS
 st.markdown(
     """
     <style>
-    body {
+    body::before {
+        content: "";
         background-image: url("https://media.licdn.com/dms/image/D4D12AQHehFjrFpLb-A/article-cover_image-shrink_720_1280/0/1692565495463?e=1717027200&v=beta&t=_9TBo-b9xrAofR5qlxPWVia3U01yUA6B7qaZIzTt8dk");
         background-size: cover;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
     }
     </style>
     """,
@@ -61,9 +68,3 @@ if st.button("Get Predictions"):
                 download_link = create_download_link(test_data, filename='Predicted Telco Customer Churn.csv', download_filename="Download predictions")
                 st.markdown(download_link, unsafe_allow_html=True)
 
-# Add footer
-footer = """
----
-Created by Your Name. Powered by [Streamlit](https://streamlit.io/).
-"""
-st.markdown(footer, unsafe_allow_html=True)
